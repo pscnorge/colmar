@@ -261,15 +261,3 @@ footer ul li a {
   text-decoration: none;
   color: #000;
 }
-/* Mobile-only styles */
-@media only screen and (max-width:480px) {
-body {
-  padding: 0;
-  margin: 0;
-}
-header h1, header li {
-  width: 25%;
-  visibility: hidden;
-  border: 1px solid red;
-}
-}
