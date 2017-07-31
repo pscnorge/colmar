@@ -354,7 +354,11 @@ section {flex-direction: column; padding:0;}
 }
 /* -- Mobile row 4 (Thesis) */
 #thesis h3, #thesis p, #thesis .col2 {display: none;}
-#thesis video {width: 84%; margin: 0 32px; padding:0;}
+#thesis video {
+  width: 84%;
+  margin: 0 32px;
+  padding:0;
+}
 /* -- Mobile footer */
 footer {padding-top:32px;}
 footer nav {display: none;}
