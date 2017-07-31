@@ -43,11 +43,33 @@ header h1 strong {
   margin-left: -0.2rem;
 }
 header ul {
-  list-style: none;
+
 }
 header ul li {
+  list-style: none;
   display: inline-block;
 }
+header ul li a {
+  font-size: 1rem;
+  margin: 0 4px;
+  text-decoration: none;
+  color: #000;
+}
+/* -- Content styling */
+article {
+  padding: 32px 24px;
+  display: flex;
+}
+article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.splash .col1 {
+  width: 60%;
+  height: 200px;
+}
+
 /* Mobile-only styles */
 @media only screen and (max-width : 480px) {
 body {
