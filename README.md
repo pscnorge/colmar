@@ -2,12 +2,11 @@
 
 Known issues:
 
-This is a partially-completed project, I didn't have enough time to complete it properly.
-The design is not pixel-perfect because of this. The top navigation doesn't scale well on smaller screens (e.g. tablets), neither do the course details.
+This is a partially-completed project, I didn't have enough time to complete it properly - the design is definitely not pixel-perfect.
 
 Design decisions:
 
-Set max-widths for the content but have not tested it on larger screens as this was not in the brief
+Set max-widths for the content but have not tested it on larger screens
 Used dummy links for all nav as content does not yet exist
 
 Changes or further research I would make which are outside the scope of the project:
