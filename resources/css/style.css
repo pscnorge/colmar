@@ -46,9 +46,6 @@ header h1 strong {
   font-weight: bold;
   margin-left: -0.3rem;
 }
-header ul {
-
-}
 header ul li {
   list-style: none;
   display: inline-block;
@@ -112,7 +109,7 @@ section img {
   font-style: normal;
   font-weight: bold;
 }
-#info .col2 a {
+#info .col2 a, #thesisflex .col2 a {
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -149,8 +146,121 @@ section img {
   background-color: #CCC;
 }
 /* ---- 3rd row (Course) */
-
-
+#learn {
+  display: block;
+  background-color: #EEE;
+}
+#learn h2 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+#courseflex {
+  margin: 0 64px 32px 32px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.course {
+  margin: 16px;
+  padding: 0;
+  width: 29%;
+  background-color: #FFF;
+}
+.course a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding-top: 140px;
+  background-size: auto 140px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.course h3, .course h4, .course p {
+  margin: 16px;
+  font-size: 0.8rem;
+}
+.course h4 {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.course p {
+  font-size: 0.6rem;
+}
+#c1 a {
+  background-image: url("../images/course-software.jpg");
+}
+#c2 a {
+  background-image: url("../images/course-computer-art.jpg");
+}
+#c3 a {
+  background-image: url("../images/course-design.jpg");
+}
+#c4 a {
+  background-image: url("../images/course-data.jpg");
+}
+#c5 a {
+  background-image: url("../images/course-business.jpg");
+}
+#c6 a {
+  background-image: url("../images/course-marketing.jpg");
+}
+/* ---- 4th row (Thesis) */
+#thesis {
+  display: block;
+}
+#thesis h2 {
+  text-align: center;
+  margin: 32px 0;
+}
+#thesisflex {
+  display: flex;
+}
+#thesisflex video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+#thesisflex .col1 h3 {
+  margin: 24px 0;
+  font-size: 1rem;
+}
+#thesisflex .col1 p {
+  font-size: 0.8rem;
+  margin-bottom: 32px;
+}
+#thesisflex .col2 a {
+  height: 136px;
+  font-size: 0.8rem;
+  }
+#thesis1 {
+  background-image: url("../images/thesis-fisma.jpg");
+  background-color: #DDD;
+}
+#thesis2 {
+  background-image: url("../images/thesis-now-and-then.jpg");
+}
+/* -- Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.6rem;
+  border: 1px solid #CCC;
+  margin: 0 auto;
+  padding: 0 12px 24px 12px;
+}
+footer #copyright {
+  margin-left:12px;
+}
+footer ul li {
+  list-style: none;
+  display: inline-block;
+}
+footer ul li a {
+  margin: 0 6px;
+  text-decoration: none;
+  color: #000;
+}
 /* Mobile-only styles */
 @media only screen and (max-width : 480px) {
 body {

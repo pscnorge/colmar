@@ -3,7 +3,7 @@
 Known issues:
 
 This is a partially-completed project, I didn't have enough time to complete it properly.
-Row 2 is not pixel-perfect becuase of this. The top navigation doesn't scale well on smaller screens (e.g. tablets)
+The design is not pixel-perfect because of this. The top navigation doesn't scale well on smaller screens (e.g. tablets), neither do the course details.
 
 Design decisions:
 
