@@ -11,3 +11,4 @@ More breakpoints - e.g. for larger screens and tablets
 Colour - I stuck to a grey palette in this instance
 Responsive design best practice - I'm not sure that the way I organised the CSS, with default styling applied and then a breakpoint for mobile, is current best practice. I would like to explore more about this.
 Cross-browser check; experiment with CSS Reset
+Typography - replace the Helvetica with something more exciting
